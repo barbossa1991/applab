@@ -102,6 +102,78 @@
     text-decoration: none;
   }
 }
+.brands {
+  margin-bottom: 170px;
+}
+.brands__title {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #242F51;
+  margin-top: 110px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.apps {
+  background-image: url(../img/apps-bg.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  min-height: 770px;
+  position: relative;
+}
+.apps-block__left {
+  img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 120px;
+  }
+}
+.apps__title {
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #242F51;
+  max-width: 285px;
+  margin-bottom: 25px;
+}
+.apps__text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+  max-width: 435px;
+  margin-bottom: 90px;
+}
+.apps__box {
+  max-width: 385px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+.apps__box-title {
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  &.red {
+    color: #F55767;
+  }
+  &.blue {
+    color: #2563FF;
+  }
+  &.green {
+    color: #40975F;
+  }
+}
+.apps__box-text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+  max-width: 255px;
+}
+
 
 
 
