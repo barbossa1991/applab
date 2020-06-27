@@ -202,6 +202,130 @@
 .smart__row {
   margin-bottom: 110px;
 }
+.smart-nav {
+  padding-left: 70px;
+}
+.design {
+  min-height: 625px;
+}
+.design-bg {
+  background-image: url(../img/design-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 625px;
+}
+.design__title {
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #242F51;
+  max-width: 350px;
+  margin-bottom: 25px;
+}
+.design__text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+  max-width: 410px;
+  margin-bottom: 40px;
+}
+.design .btn.btn-design {
+  margin-left: 0;
+}
+.design-heigh {
+  min-height: 625px;
+}
+.design__box {
+  margin-left: 100px;
+}
+.choose__title {
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #242F51;
+  max-width: 435px;
+  margin: 135px auto 0;
+}
+.choose__text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+  max-width: 635px;
+  text-align: center;
+  margin: 35px auto 85px;
+}
+.chose__box {
+  max-width: 260px;
+  text-align: center;
+}
+.choose__box-title,
+.ultimate__box-title {
+  line-height: 58px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #242F51;
+  margin-top: 10px;
+}
+.choose__box-text,
+.ultimate__box-text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+}
+.choose .row,
+.ultimate .row {
+  margin-bottom: 60px;
+}
+.ultimate__title {
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #242F51;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+.ultimate__text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+  margin-bottom: 60px;
+}
+.ultimate {
+  margin-top: 120px;
+  background-image: url(../img/ultimate-bg.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  & .btn.btn-ultimate {
+    margin-left: 0;
+  }
+}
+.ultimate__box {
+  button {
+    margin-top: 50px;
+  }
+}
+.features__title {
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #242F51;
+  max-width: 575px;
+  margin: 135px auto 0;
+}
+.features__text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #616368;
+  max-width: 635px;
+  text-align: center;
+  margin: 35px auto 85px;
+}
+
 
 
 
