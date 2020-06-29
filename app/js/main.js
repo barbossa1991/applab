@@ -12,4 +12,8 @@ $(function () {
         nextArrow: '<button type="button" class="slick-btn slick-next"><div class="arrow-next"></div></button>',
     });
 
+    $('.questions__box-title').on('click', (function() {
+        $(this).toggleClass('active');
+    }));
+
 });
