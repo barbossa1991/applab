@@ -20,11 +20,44 @@
       margin-right: 20px;
     }
   }
+  .smart__left {
+    margin-bottom: 20px;
+  }
+  .smart-nav {
+    img {
+      margin-top: 20px;
+    }
+  }
+  .smart__row {
+    margin-bottom: 10px;
+  }
+  .apps-block__left {
+    display: none;
+  }
+  .design-bg {
+    background-image: none;
+  }
+  .design__box {
+    margin-left: 10px;
+  }
+  .chose__box {
+    margin-top: 20px;
+  }
+  .choose__title {
+    margin-top: 0;
+  }
+  .choose .row {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 767px) {
   .header-box__title {
     line-height: 50px;
     font-size: 35px;
+  }
+  .smart__left {
+    line-height: 35px;
+    font-size: 25px;
   }
 }
 @media (max-width: 480px) {
