@@ -11,7 +11,10 @@
   }
   .header__content-block {
     min-height: 620px;
-}
+  }
+  .brands__item {
+    margin: 30px 20px;
+  }
 }
 @media (max-width: 767px) {
   .header-box__title {
