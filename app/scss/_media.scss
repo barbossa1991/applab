@@ -87,6 +87,9 @@
   .map {
     margin-bottom: 55px;
   }
+  .download {
+    background-image: none;
+  }
 }
 @media (max-width: 767px) {
   .header-box__title {
@@ -99,6 +102,10 @@
   }
   .questions__box-title {
     line-height: 50px;
+  }
+  .navbar-list {
+    display: block;
+    text-align: center;
   }
 }
 @media (max-width: 480px) {
@@ -130,5 +137,14 @@
   }
   .questions__box-title {
     line-height: 35px;
+  }
+  .download__linkbox {
+    a {
+      display: inline-block;
+    }
+    a + a {
+      margin-left: 0;
+      margin-top: 10px;
+    }
   }
 }
