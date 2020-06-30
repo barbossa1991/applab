@@ -69,6 +69,24 @@
   .price-right {
     margin-top: 35px;
   }
+  .questions__box-title {
+    font-size: 15px;
+  }
+  .questions__box-title {
+    padding-right: 40px;
+    &::before {
+      right: 15px;
+    }
+    &::after {
+      right: 15px;
+    }
+  }
+  .questions__title {
+    margin-top: 0;
+  }
+  .map {
+    margin-bottom: 55px;
+  }
 }
 @media (max-width: 767px) {
   .header-box__title {
@@ -78,6 +96,9 @@
   .smart__left {
     line-height: 35px;
     font-size: 25px;
+  }
+  .questions__box-title {
+    line-height: 50px;
   }
 }
 @media (max-width: 480px) {
@@ -106,5 +127,8 @@
   }
   .slider-item__inner {
     display: block;
+  }
+  .questions__box-title {
+    line-height: 35px;
   }
 }
