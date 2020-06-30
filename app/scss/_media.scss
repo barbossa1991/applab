@@ -1,3 +1,11 @@
+@media (max-width: 1800px) {
+  .map {
+    background-image: none;
+  }
+  .map-resp {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 992px) {
   .btn.btn-custom {
     margin-left: 0;
@@ -49,6 +57,18 @@
   .choose .row {
     margin-bottom: 10px;
   }
+  .ultimate {
+    background-image: none;
+  }
+  .ultimate .row {
+    margin-bottom: 10px;
+  }
+  .ultimate__text {
+    margin-bottom: 10px;
+  }
+  .price-right {
+    margin-top: 35px;
+  }
 }
 @media (max-width: 767px) {
   .header-box__title {
@@ -78,5 +98,13 @@
     .apps__box-text {
       margin: 0 auto;
     }
+  }
+  .ultimate__box {
+    img {
+      margin-top: 20px;
+    }
+  }
+  .slider-item__inner {
+    display: block;
   }
 }
