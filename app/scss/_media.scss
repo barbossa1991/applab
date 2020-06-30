@@ -90,6 +90,12 @@
   .download {
     background-image: none;
   }
+  .social-block {
+    margin-bottom: 20px;
+  }
+  .footer-bottom__text {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 767px) {
   .header-box__title {
@@ -106,6 +112,13 @@
   .navbar-list {
     display: block;
     text-align: center;
+  }
+  .footer-bottom__logo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .navbar-list {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 480px) {
